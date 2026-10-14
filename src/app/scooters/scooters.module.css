@@ -280,18 +280,62 @@
 }
 
 @media (max-width: 540px) {
+  .header {
+    padding: 2.2rem 1rem 0.5rem;
+  }
+  .title {
+    font-size: 1.85rem;
+  }
+  .subtitle {
+    font-size: 0.92rem;
+  }
+  .fleetContainer {
+    padding: 1.5rem 0.85rem 3.5rem;
+  }
+  .cardBody {
+    padding: 1rem 0.85rem 1.15rem;
+  }
+  .bikeName {
+    font-size: 1.25rem;
+  }
+  .hondaBadge {
+    width: 36px;
+    height: 36px;
+  }
+  .specsTable {
+    margin-bottom: 1rem;
+  }
   .specCell {
-    padding: 0.5rem 0.5rem;
-    gap: 0.45rem;
+    padding: 0.45rem 0.4rem;
+    gap: 0.35rem;
+  }
+  .specIcon {
+    width: 15px;
+    height: 15px;
   }
   .specLabel {
     font-size: 0.62rem;
+    white-space: normal;
+    line-height: 1.15;
   }
   .specValue {
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    white-space: normal;
+    line-height: 1.2;
+  }
+  .mainPriceRow {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+  .dailyUSD {
+    font-size: 1.6rem;
+  }
+  .dailyRateLabel {
+    font-size: 0.82rem;
   }
   .subPricesRow {
-    gap: 0.75rem;
-    font-size: 0.75rem;
+    gap: 0.4rem 0.75rem;
+    font-size: 0.74rem;
+    flex-wrap: wrap;
   }
 }

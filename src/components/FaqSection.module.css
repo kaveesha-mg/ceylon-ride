@@ -135,3 +135,29 @@
   opacity: 0.8;
   box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4);
 }
+
+@media (max-width: 768px) {
+  .faqSection {
+    padding: 3.5rem 1rem 2.5rem 1rem;
+    background-size: cover;
+  }
+  .header {
+    margin-bottom: 2rem;
+  }
+  .title {
+    font-size: 1.85rem;
+  }
+  .description {
+    font-size: 0.95rem;
+  }
+  .faqQuestion {
+    padding: 1rem 1.15rem;
+  }
+  .faqQuestion h3 {
+    font-size: 1rem;
+  }
+  .answerContent {
+    padding: 1rem 1.15rem;
+    font-size: 0.92rem;
+  }
+}
