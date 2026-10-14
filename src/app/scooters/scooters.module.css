@@ -1,0 +1,297 @@
+.pageContainer {
+  padding-top: 98px;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.pageContainer section {
+  padding-top: 0 !important;
+}
+
+.header {
+  padding: 3rem 1.5rem 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: var(--foreground);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--foreground);
+  opacity: 0.8;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.fleetContainer {
+  padding: 2.5rem 1.5rem 5rem;
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.2rem;
+}
+
+.bikeCard {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1.5px solid #e2e8f0;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.bikeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px -5px rgba(0, 0, 0, 0.12);
+}
+
+.imageWrapper {
+  padding: 12px 12px 0 12px;
+}
+
+.imageContainer {
+  width: 100%;
+  aspect-ratio: 760 / 480;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #dce0e5;
+  position: relative;
+}
+
+.scooterImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cardBody {
+  padding: 1.25rem 1.4rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cardTopRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.1rem;
+}
+
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.bikeName {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.categoryBadge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #dc2626;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+.hondaBadge {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid #e2e8f0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+  flex-shrink: 0;
+}
+
+.specsTable {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 1.2rem;
+}
+
+.specRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.specRow:last-child {
+  border-bottom: none;
+}
+
+.specCell {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.55rem 0.75rem;
+  min-width: 0;
+}
+
+.specCell:first-child {
+  border-right: 1px solid #f1f5f9;
+}
+
+.specIcon {
+  width: 18px;
+  height: 18px;
+  color: #dc2626;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.specText {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.specLabel {
+  font-size: 0.68rem;
+  color: #64748b;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.specValue {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardFooter {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.priceCard {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+}
+
+.mainPriceRow {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.35rem;
+}
+
+.dailyUSD {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.dailyRateLabel {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #64748b;
+  margin-left: 0.35rem;
+}
+
+.subPricesRow {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 0.82rem;
+  color: #475569;
+  flex-wrap: wrap;
+}
+
+.subPriceItem {
+  display: inline-flex;
+  gap: 0.3rem;
+}
+
+.subPriceLabel {
+  font-weight: 600;
+  color: #64748b;
+}
+
+.subPriceVal {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.bookBtn {
+  width: 100%;
+  display: block;
+  text-align: center;
+  background: #0ea5e9;
+  color: #ffffff;
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  letter-spacing: 0.02em;
+  box-shadow: 0 4px 14px rgba(14, 165, 233, 0.25);
+}
+
+.bookBtn:hover {
+  background: #0284c7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(14, 165, 233, 0.35);
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .specCell {
+    padding: 0.5rem 0.5rem;
+    gap: 0.45rem;
+  }
+  .specLabel {
+    font-size: 0.62rem;
+  }
+  .specValue {
+    font-size: 0.75rem;
+  }
+  .subPricesRow {
+    gap: 0.75rem;
+    font-size: 0.75rem;
+  }
+}
