@@ -42,7 +42,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className={styles.contactContainer} style={{ paddingTop: '105px', scrollMarginTop: '10px' }}>
+    <section id="contact" className={styles.contactContainer}>
       <div className="container">
         <div className={styles.sectionDivider}></div>
         <div className={styles.headerSection}>

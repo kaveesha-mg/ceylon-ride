@@ -53,11 +53,27 @@
 }
 
 @media (max-width: 768px) {
+  .contactContainer {
+    padding-top: 1.25rem !important;
+    padding-bottom: 2.5rem;
+    min-height: auto;
+  }
+
+  .sectionDivider {
+    margin: 0 auto 1.25rem auto;
+  }
+
+  .headerSection {
+    margin-bottom: 1.75rem;
+  }
+
   .mainHeading {
     font-size: 1.85rem;
+    margin-bottom: 0.75rem;
   }
+  
   .subDescription {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 

@@ -138,8 +138,11 @@
 
 @media (max-width: 768px) {
   .faqSection {
-    padding: 1.75rem 1rem 2.5rem 1rem;
+    padding: 1.75rem 1rem 1rem 1rem;
     background-size: cover;
+  }
+  .buttonContainer {
+    margin-top: 1.5rem;
   }
   .header {
     margin-bottom: 1.75rem;
