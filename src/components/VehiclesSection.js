@@ -190,13 +190,13 @@ function HondaWingLogo() {
 
 export default function VehiclesSection() {
   return (
-    <section id="scooters" style={{ padding: '6rem 0', backgroundColor: 'var(--background)' }}>
+    <section id="scooters" className={styles.scootersSection}>
       <div className="container">
-        <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-          <h2 style={{ fontSize: '2.5rem', fontWeight: 800, marginBottom: '0.75rem', color: 'var(--foreground)' }}>
+        <div className={styles.sectionHeader}>
+          <h2 className={styles.sectionTitle}>
             Our Bike Collection
           </h2>
-          <p style={{ fontSize: '1.1rem', color: 'var(--foreground)', opacity: 0.8, maxWidth: '650px', margin: '0 auto', lineHeight: 1.6 }}>
+          <p className={styles.sectionSubtitle}>
             Choose from our selection of well-maintained, fully automatic scooters suitable for long-distance travel, and hill-country adventures across Sri Lanka.
           </p>
         </div>
